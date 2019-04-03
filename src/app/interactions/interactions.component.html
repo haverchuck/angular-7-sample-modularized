@@ -1,0 +1,13 @@
+<mat-card class="interactions-card">
+  <mat-card-title>
+    AWS Amplify Interactions
+  </mat-card-title>
+  <mat-card-content>
+      <amplify-interactions 
+        bot="ScheduleAppointment_dev" 
+        clearComplete="true" 
+        (complete)="onBotComplete($event)">
+      </amplify-interactions>
+
+  </mat-card-content>
+</mat-card>

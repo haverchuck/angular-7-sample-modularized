@@ -1,0 +1,11 @@
+<section class="authenticator">
+    <amplify-authenticator></amplify-authenticator>
+</section>
+<section *ngIf="signedIn" id="wrapper">
+  <div id="left">
+    <app-storage></app-storage>
+  </div>
+  <div id="right">
+    <app-interactions></app-interactions>
+  </div>
+</section>
