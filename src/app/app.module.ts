@@ -12,7 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { AmplifyAngularModule, AmplifyService, AmplifyModules } from 'aws-amplify-angular';
 import Auth from '@aws-amplify/auth';
 import Interactions from '@aws-amplify/interactions';
-import Storage from '@aws-amplify/Storage';
+import Storage from '@aws-amplify/storage';
 
 
 @NgModule({
