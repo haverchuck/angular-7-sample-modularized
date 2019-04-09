@@ -11,8 +11,8 @@ import { InteractionsComponent } from './interactions/interactions.component';
 import { HomeComponent } from './home/home.component';
 import { AmplifyAngularModule, AmplifyService, AmplifyModules } from 'aws-amplify-angular';
 import Auth from '@aws-amplify/auth';
-import Interactions from '@aws-amplify/interactions';
 import Storage from '@aws-amplify/storage';
+import Interactions from '@aws-amplify/interactions';
 
 
 @NgModule({

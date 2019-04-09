@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "[ -f src/aws-exports.js ] && mv src/aws-exports.js src/aws-exports.ts || ng serve; ng serve",
+    "aot": "[ -f src/aws-exports.js ] && mv src/aws-exports.js src/aws-exports.ts || ng serve; ng serve --prod --aot",
     "build": "[ -f src/aws-exports.js ] && mv src/aws-exports.js src/aws-exports.ts || ng build --prod; ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
@@ -21,6 +22,7 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
+    "aws-amplify": "^1.1.24",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "rxjs-compat": "^6.4.0",

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AmplifyService }  from 'aws-amplify-angular';
+import { AmplifyService } from 'aws-amplify-angular';
 
 
 @Component({
@@ -25,6 +25,8 @@ export class HomeComponent implements OnInit {
 }
 
   ngOnInit() {
+
   }
+
 
 }
